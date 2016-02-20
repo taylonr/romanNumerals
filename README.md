@@ -1,3 +1,6 @@
+[![Dependency Status](https://gemnasium.com/bmcallis/library-skeleton.svg)](https://gemnasium.com/bmcallis/library-skeleton)
+
+
 # Library Skeleton
 
 The building blocks for this skeleton came from this article by Krasimir Tsonev: http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6.
