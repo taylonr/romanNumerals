@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var path = require('path');
 
-var libraryName = 'library';
+var libraryName = 'Library';
 
 var plugins = [], outputFile;
 
