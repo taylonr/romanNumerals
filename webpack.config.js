@@ -24,7 +24,7 @@ var config = {
     devtool: 'source-map',
     output: {
         path: __dirname + '/lib',
-        filename: outputFile,
+        filename: outputFile.toLowerCase(),
         library: libraryName,
         libraryTarget: 'umd',
         umdNamedDefine: true
