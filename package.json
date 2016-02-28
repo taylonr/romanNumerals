@@ -43,7 +43,11 @@
     "mocha",
     "es6"
   ],
-  "author": "Brandon McAllister <brandon@insomniacisland.com>",
+  "author": {
+    "name": "Brandon McAllister",
+    "email": "brandon@insomniacisland.com",
+    "url": ""
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/bmcallis/library/issues"
