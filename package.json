@@ -4,7 +4,7 @@
   "description": "Library Skeleton",
   "main": "lib/library.js",
   "scripts": {
-    "clean": "rimraf lib/*",
+    "clean": "rimraf lib/* demos/webpack/demo.bundle.js",
     "build": "npm-run-all clean build:*",
     "build:js": "webpack --progress",
     "build:min": "npm run build:js -- --mode=min",
