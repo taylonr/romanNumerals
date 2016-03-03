@@ -26,6 +26,7 @@ There are many different npm scripts in the package.json to support various work
 * `npm run lint` will lint all source and test files. Note that linting also happens during the build
 * `npm run verify` will lint the files, then run the tests. Useful for CI
 * `npm run build` will bundle the library as both minified and unminified and with sourcemaps.
+* `npm run demo` will use webpack-dev-server to serve up a demo app that is using the library. Changes to library or demo app will cause a reload of the page.
 
 To use the demo page from the browser serve up the this directory with something like [http-server](https://www.npmjs.com/package/http-server) or python and pull up navigate to `demo/index.html`
 
