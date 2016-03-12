@@ -17,7 +17,7 @@
     "lint:test": "eslint test",
     "preverify": "npm run build",
     "verify": "npm-run-all lint test",
-    "demo": "webpack-dev-server --inline --hot --no-info --progress --config demos/webpack/demo.webpack.config.js"
+    "demo": "webpack-dev-server --inline --hot --no-info --progress --config demo.webpack.config.js"
   },
   "devDependencies": {
     "babel": "^6.5.2",
