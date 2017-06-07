@@ -6,17 +6,17 @@ export default class Library {
 
     convertToIs(numeral) {
         return numeral
-            .replace(/X/g, 'VV')
-            .replace(/IV/g, 'IIII')
-            .replace(/V/g, 'IIIII');
+            .replace('X', 'VV')
+            .replace('IV', 'IIII')
+            .replace('V', 'IIIII');
     }
 
     makeNumeral(numeral) {
         return numeral
-            .replace(/IIIIIIIIII/g, 'X')
-            .replace(/XXXX/g, 'XL')
-            .replace(/IIIIIIIII/g, 'IX')
-            .replace(/IIIII/g, 'V')
-            .replace(/IIII/g, 'IV');
+            .replace('IIIIIIIIII', 'X')
+            .replace('XXXX', 'XL')
+            .replace('IIIIIIIII', 'IX')
+            .replace('IIIII', 'V')
+            .replace('IIII', 'IV');
     }
 }
