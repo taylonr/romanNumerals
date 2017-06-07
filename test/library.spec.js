@@ -55,28 +55,4 @@ describe('Adding', function () {
     it('Adding XIV + XXVII should equal XLI', () => {
         expect(lib.add('XIV', 'XXVII')).to.eql('XLI');
     });
-    it('Adding XLV + XIX should equal LXIV', () => {
-        expect(lib.add('XLV', 'XIX')).to.eql('LXIV');
-    });
-    it('Adding XLIX + XLVIII should equal XCVII', () => {
-        expect(lib.add('XLIX', 'XLVIII')).to.eql('XCVII');
-    });
-    it('Adding XCIV + LXXXII should equal CLXXVI', () => {
-        expect(lib.add('XCIV', 'LXXXII')).to.eql('CLXXVI');
-    });
-    it('Adding CCCIX + XCIV should equal CDIII', () => {
-        expect(lib.add('CCCIX', 'XCIV')).to.eql('CDIII');
-    });
-    it('Adding CDLXI + CCXLVII should equal DCCVIII', () => {
-        expect(lib.add('CDLXI', 'CCXLVII')).to.eql('DCCVIII');
-    });
-    it('Adding DCCXCIX + CDXXVII should equal MCCXXVI', () => {
-        expect(lib.add('DCCXCIX', 'CDXXVII')).to.eql('MCCXXVI');
-    });
-    it('Adding DIX + CDXLIV should equal CMLIII', () => {
-        expect(lib.add('DIX', 'CDXLIV')).to.eql('CMLIII');
-    });
-    it('Adding MDLV + MMCDXLIV should equal MMMCMXCIX', () => {
-        expect(lib.add('MDLV', 'MMCDXLIV')).to.eql('MMMCMXCIX');
-    });
 });
